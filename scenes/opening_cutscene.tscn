@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://dss7pt6epjxea"]
+
+[ext_resource type="AudioStream" uid="uid://bxfqs3t8w171x" path="res://music/3 points on your driving licence.mp3" id="1_xsn5u"]
+[ext_resource type="Texture2D" uid="uid://c5ew1rlj5dxpt" path="res://sprites/cutscenebackground.png" id="2_aa5v3"]
+[ext_resource type="Script" path="res://scenes/Cutscenebackground.gd" id="3_bn6d6"]
+[ext_resource type="FontFile" uid="uid://rh5hdjauj6t" path="res://fonts/mrgoogleusmwostruct.ttf" id="4_rreer"]
+[ext_resource type="Script" path="res://scenes/Label.gd" id="5_cq2jl"]
+
+[node name="Opening Cutscene" type="Node2D"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_xsn5u")
+autoplay = true
+
+[node name="Cutscenebackground" type="Sprite2D" parent="."]
+position = Vector2(647.556, 360)
+scale = Vector2(20.4444, 20.4444)
+texture = ExtResource("2_aa5v3")
+script = ExtResource("3_bn6d6")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 68.0
+offset_top = 173.0
+offset_right = 1211.0
+offset_bottom = 584.0
+theme_override_constants/line_spacing = -55
+theme_override_fonts/font = ExtResource("4_rreer")
+theme_override_font_sizes/font_size = 50
+text = "a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a long time ago a lon."
+autowrap_mode = 3
+clip_text = true
+script = ExtResource("5_cq2jl")

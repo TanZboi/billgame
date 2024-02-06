@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxfqs3t8w171x"
+path="res://.godot/imported/3 points on your driving licence.mp3-26ba656dcb9c0d2d742f8d2823e57fef.mp3str"
+
+[deps]
+
+source_file="res://music/3 points on your driving licence.mp3"
+dest_files=["res://.godot/imported/3 points on your driving licence.mp3-26ba656dcb9c0d2d742f8d2823e57fef.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
