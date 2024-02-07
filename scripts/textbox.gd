@@ -16,14 +16,11 @@ enum state{
 var current_state = state.READY
 var text_queue = []
 
-const CHAR_READ_RATE = 0.03
+const CHAR_READ_RATE = 0.0015
 
 func _ready():
+	
 	hide_textbox()
-	queue_text("this is going to be added.")
-	queue_text("this is going to be added. 2")
-	queue_text("this is going to be added. 4")
-	queue_text("this is going to be added. 45")
 	tween.finished.connect(finishedscrollingtext)
 	
 func _process(_delta):

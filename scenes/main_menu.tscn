@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3 uid="uid://dg4psgngb4u4d"]
+
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_ndrfw"]
+[ext_resource type="FontFile" uid="uid://rh5hdjauj6t" path="res://fonts/mrgoogleusmwostruct.ttf" id="2_dym2l"]
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_ndrfw")
+
+[node name="New_Game" type="Label" parent="."]
+offset_left = 527.0
+offset_top = 252.0
+offset_right = 746.0
+offset_bottom = 374.0
+theme_override_fonts/font = ExtResource("2_dym2l")
+theme_override_font_sizes/font_size = 50
+text = ">New Game"
+
+[node name="Continue" type="Label" parent="."]
+offset_left = 523.0
+offset_top = 355.0
+offset_right = 750.0
+offset_bottom = 477.0
+theme_override_fonts/font = ExtResource("2_dym2l")
+theme_override_font_sizes/font_size = 50
+text = "Continue"
+
+[node name="Options" type="Label" parent="."]
+offset_left = 535.0
+offset_top = 456.0
+offset_right = 733.0
+offset_bottom = 578.0
+theme_override_fonts/font = ExtResource("2_dym2l")
+theme_override_font_sizes/font_size = 50
+text = "Options"
+
+[node name="Quit" type="Label" parent="."]
+offset_left = 573.0
+offset_top = 561.0
+offset_right = 771.0
+offset_bottom = 683.0
+theme_override_fonts/font = ExtResource("2_dym2l")
+theme_override_font_sizes/font_size = 50
+text = "Quit"

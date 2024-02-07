@@ -2,9 +2,9 @@
 
 [ext_resource type="AudioStream" uid="uid://bxfqs3t8w171x" path="res://music/3 points on your driving licence.mp3" id="1_xsn5u"]
 [ext_resource type="Texture2D" uid="uid://c5ew1rlj5dxpt" path="res://sprites/cutscenebackground.png" id="2_aa5v3"]
-[ext_resource type="Script" path="res://scenes/Cutscenebackground.gd" id="3_bn6d6"]
+[ext_resource type="Script" path="res://scripts/Cutscenebackground.gd" id="3_bn6d6"]
 [ext_resource type="FontFile" uid="uid://rh5hdjauj6t" path="res://fonts/mrgoogleusmwostruct.ttf" id="4_rreer"]
-[ext_resource type="Script" path="res://scenes/Label.gd" id="5_cq2jl"]
+[ext_resource type="Script" path="res://scripts/Label.gd" id="5_cq2jl"]
 
 [node name="Opening Cutscene" type="Node2D"]
 

@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="billgame"
-run/main_scene="res://scenes/textbox.tscn"
+run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://sprites/icon.svg"
 
@@ -19,6 +19,7 @@ config/icon="res://sprites/icon.svg"
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/size/resizable=false
 
 [dotnet]
 

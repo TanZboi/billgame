@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlnmxmqan6n7v"
-path="res://.godot/imported/Lon_back_step.png-2cb6f976f762156da96cd76f7939fdfc.ctex"
+path="res://.godot/imported/lon_back_step.png-ebc39aa9f2da42d18a02c33643b51b22.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Lon_back_step.png"
-dest_files=["res://.godot/imported/Lon_back_step.png-2cb6f976f762156da96cd76f7939fdfc.ctex"]
+source_file="res://sprites/lon_back_step.png"
+dest_files=["res://.godot/imported/lon_back_step.png-ebc39aa9f2da42d18a02c33643b51b22.ctex"]
 
 [params]
 

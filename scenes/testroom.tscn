@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://b76mr7thplcw7"]
+
+[ext_resource type="PackedScene" uid="uid://caa4u7qi1tu87" path="res://scenes/player.tscn" id="1_i2vef"]
+[ext_resource type="Script" path="res://scenes/Testimage.gd" id="2_5nynd"]
+[ext_resource type="Texture2D" uid="uid://b87coiq883j35" path="res://sprites/testimage.jpg" id="2_t0kkl"]
+[ext_resource type="PackedScene" uid="uid://ciu18wl4d8mvi" path="res://scenes/textbox.tscn" id="3_dm2vo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ojd5p"]
+size = Vector2(164.5, 202)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Testimage" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.305882)
+position = Vector2(826, 225)
+texture = ExtResource("2_t0kkl")
+script = ExtResource("2_5nynd")
+
+[node name="textbox" parent="." instance=ExtResource("3_dm2vo")]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(463, 295)
+scale = Vector2(0.464445, 0.464444)
+texture = ExtResource("2_t0kkl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(466.75, 296)
+shape = SubResource("RectangleShape2D_ojd5p")
+
+[node name="player" parent="." instance=ExtResource("1_i2vef")]
+position = Vector2(311, 163)

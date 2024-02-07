@@ -6,9 +6,10 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var speed = 500
 var i = 0;
 
+
 #every 20 frames update
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	var direction = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	velocity = direction * speed
 	move_and_slide()
